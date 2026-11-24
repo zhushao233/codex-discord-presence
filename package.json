@@ -1,0 +1,14 @@
+{
+  "name": "codex-discord-presence",
+  "version": "1.0.2",
+  "private": true,
+  "type": "module",
+  "description": "Local ChatGPT/Codex plugin that shows a Playing Codex activity in Discord.",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22.5"
+  }
+}

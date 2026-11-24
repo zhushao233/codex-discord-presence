@@ -1,0 +1,36 @@
+{
+  "name": "codex-discord-presence",
+  "version": "1.0.2",
+  "description": "Show a Playing Codex activity in Discord from ChatGPT or Codex.",
+  "author": {
+    "name": "Local Plugin"
+  },
+  "license": "MIT",
+  "keywords": [
+    "discord",
+    "rich-presence",
+    "codex",
+    "chatgpt",
+    "status"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Discord Codex Presence",
+    "shortDescription": "Show Playing Codex in Discord.",
+    "longDescription": "Connect ChatGPT or Codex to the local Discord desktop client and publish a Rich Presence activity. Requires a Discord application client ID and the Discord desktop app; no bot token is needed.",
+    "developerName": "Local",
+    "category": "Productivity",
+    "capabilities": [
+      "Write"
+    ],
+    "defaultPrompt": [
+      "把 Discord 状态改成正在玩 Codex",
+      "更新我在 Discord 上的 Codex 活动状态",
+      "关闭 Discord 上的 Codex 活动"
+    ],
+    "brandColor": "#5865F2",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png"
+  }
+}
