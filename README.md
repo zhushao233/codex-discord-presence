@@ -6,7 +6,9 @@
 
 [中文](#中文) | [English](#english)
 
-![Discord Codex Presence demo](assets/demo.gif)
+<p align="center">
+  <img src="assets/demo.gif" alt="Discord Codex Presence demo" width="552">
+</p>
 
 `Windows-first` · `Discord Stable & PTB` · `No bot token` · `No OAuth` · `No public server`
 
@@ -103,7 +105,7 @@ powershell -ExecutionPolicy Bypass -File .\install.ps1 -ClientId 123456789012345
 - 将 Discord Application ID 保存到 `%USERPROFILE%\.codex-discord-presence\config.json`；
 - 在 `%USERPROFILE%\.agents\plugins\marketplace.json` 注册个人插件市场；
 - 在 Windows 启动目录写入隐藏启动项 `CodexDiscordPresence.vbs`；
-- 启动实时状态监控器；如已有实例在运行，新实例会自动退出，不会重复连接。
+- 如果配置已存在，立即启动实时状态监控器；如已有实例在运行，新实例会自动退出，不会重复连接。
 
 可选参数：
 
@@ -384,7 +386,7 @@ The installer will:
 - save the Discord Application ID to `%USERPROFILE%\.codex-discord-presence\config.json`;
 - register the personal plugin marketplace in `%USERPROFILE%\.agents\plugins\marketplace.json`;
 - install a hidden startup entry named `CodexDiscordPresence.vbs` on Windows;
-- start the live watcher. If an instance is already running, the new one exits without opening a second IPC connection.
+- start the live watcher when a configuration already exists. If an instance is already running, the new one exits without opening a second IPC connection.
 
 Optional flags:
 
